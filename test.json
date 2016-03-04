@@ -1,0 +1,52 @@
+{
+  "contacts": [
+    "skhatri@walmartlabs.com"
+  ],
+  "scope": [
+    "openid"
+  ],
+  "additionalInformation": {
+    "ISSUER_ID": "e88cfcdf-e1c2-4584-bc8f-d394866141"
+  },
+  "accountStatus": "ACTIVE",
+  "grantedAuthorities": [],
+  "scoped": false,
+  "client_id": "0b8f6f6b-7d0b-43a9-8a3f-c70fd1b9b9",
+  "redirect_uris": [
+    "http://www.walmart.com/abc"
+  ],
+  "client_name": "Demo of Portal integration with IAM",
+  "token_endpoint_auth_method": "SECRET_BASIC",
+  "grant_types": [
+    "authorization_code"
+  ],
+  "response_types": [
+    "code"
+  ],
+  "application_type": "WEB",
+  "subject_type": "PUBLIC",
+  "id_token_signed_response_alg": "RS512",
+  "token_endpoint_auth_signing_alg": "RS512",
+  "require_auth_time": false,
+  "post_logout_redirect_uri": "http://www.walmart.com/xyz",
+  "access_token_validity_seconds": 1800,
+  "refresh_token_validity_seconds": 0,
+  "client_description": "Developed by Shubham Khatri",
+  "id_token_validity_seconds": 1800,
+  "id_token_sign_key": [
+    "JsonRSAKey",
+    "{\"kty\":\"RSA\",\"e\":\"AQAB\",\"use\":\"sig\",\"kid\":\"21d7e169-3469-4162-503b935815ee\",\"n\":\"2Ex0jXvnh3i3la2FaBipq1icOJzXZEGZrigC-XK8_Rn4A2n-yKC1vyeGDlIkqiucxOJu2z2jwhnNxxl4rzGTil9lTxPi4RrcsIVtI_u-IHkU333ASjZr0SaL0LgW_M3lDQpOc79tUJT0HoHNnlslt6lPD-AH2xggQnfMFk\"}"
+  ],
+  "token_sign_key": [
+    "JsonRSAKey",
+    "{\"kty\":\"RSA\",\"e\":\"AQAB\",\"use\":\"sig\",\"kid\":\"8e70b395-9572-45bb-9841-e234cab4c\",\"n\":\"nL4vUrPaG5h2SrbghVvhwLI53rFPtMzmMGSSZPtBbBLm9sG3ftToKzPa_-70L0zy56IJeANYByBC3Bf2ahPx5npbMPMuqR5OqSwS3821kkM5KL6NavkxygvBBsbdb-Smvp6xUXlHiftiKarbeoWW_iCu2FzAgPfYDFnlU8\"}"
+  ],
+  "registration_client_uri": "http://idp.qa.sso.platform.qa.walmacom:80/platform-sso-ser/ppidp/register?client_id=0b8f6f6b-7d0b-43a9-8a3f-c70fa8d1b9b9",
+  "authorization_grant_types": [
+    "authorization_code"
+  ],
+  "registered_redirect_uri": [
+    "http://www.walmart.com/abc"
+  ],
+  "secret_required": true
+}
